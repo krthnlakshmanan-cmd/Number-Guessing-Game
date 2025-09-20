@@ -1,0 +1,35 @@
+body {
+    background-color: blue;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+input {
+    padding: 10px;
+    margin-top: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.number {
+    position: absolute;
+    font-size: 24px;
+    transition: transform 0.2s ease-in-out;
+}
